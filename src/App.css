@@ -2,3 +2,9 @@
 body {
   background-color: pink;
 }
+.check-true {
+  background-image: url("./assets/images/check.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

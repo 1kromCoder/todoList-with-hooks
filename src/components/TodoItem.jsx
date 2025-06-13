@@ -43,7 +43,7 @@ const TodoItem = ({ item, todos, setTodos, index }) => {
           <input className="check-input hidden" type="checkbox" />
           <div
             onClick={handleClick}
-            className="check-wrapper w-[20px] h-[20px] rounded-full border-[1px] border-slate-500"
+            className={`check-wrapper ${item.isComplated ? "check-true" : ""} w-[20px] h-[20px] rounded-full border-[1px] border-slate-500`}
           ></div>
         </label>
       </div>
